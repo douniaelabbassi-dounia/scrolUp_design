@@ -26,8 +26,8 @@ Votre projet **ScrolUp** est maintenant entièrement configuré et optimisé pou
 3. **`.env.example`** - Template pour variables d'environnement
    - Prêt pour futures configurations API
 
-4. **`.vercelignore`** - Optimisation du déploiement
-   - Ignore les fichiers sources inutiles
+4. **`.vercelignore`** - ~~Supprimé (causait des problèmes)~~
+   - ❌ Fichier supprimé car il ignorait le dossier `src/` nécessaire au build
 
 ### ✅ Fichiers Optimisés
 
@@ -148,7 +148,6 @@ Votre projet **ScrolUp** est maintenant entièrement configuré et optimisé pou
 scrolUp_design/
 ├── 📄 vercel.json              ← Configuration Vercel
 ├── 📄 .gitignore               ← Exclusions Git
-├── 📄 .vercelignore            ← Exclusions Vercel
 ├── 📄 .env.example             ← Template variables env
 ├── 📄 package.json             ← Dépendances & scripts
 ├── 📄 vite.config.ts           ← Configuration Vite
