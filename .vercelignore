@@ -1,0 +1,9 @@
+# Ignore source files during deployment (only dist is needed)
+src/
+node_modules/
+.git/
+.vscode/
+*.md
+!README.md
+.env.example
+
